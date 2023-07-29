@@ -1,0 +1,109 @@
+body{
+    background-color:#086788;
+    font-family: 'Nunito', sans-serif;
+    color:#E8E9F3;
+    margin: 30px;
+    
+}
+
+
+.main-title{
+    font-family: 'Rammetto One', cursive; 
+    color:#F0C808;
+    font-size: 70px;
+    text-align: center;
+}
+
+main .imagenes{
+    width: 1270px;
+    margin: 13px;
+}
+
+main .imagenes div{
+    display: inline-block;
+}
+
+main .imagenes img{
+    height: 250px;
+    margin-right: 20px;
+}
+
+header nav .menu{
+    background-color: #A6A6A8;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+nav .menu a{
+    color:black;
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+.bienvenida{
+    text-align:center;
+    color:#F0C808;
+}
+
+.solar p{
+    text-align:justify;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 24%;
+    margin-bottom: 15px;
+    height: 220px;
+    overflow:hidden;
+    position: relative;
+    border-radius: 3%;
+}
+
+.box  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.capa{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: hsla(224, 75%, 11%, 0.750);
+    transform: scale(0);
+    transition: transform .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.capa p{
+    text-align: center;
+    margin: 0px 20px 0px;
+}
+
+.box:hover .capa{
+    transform: scale(1);
+}
+
+.astro .lista .space{
+    width: 450px;
+    margin-left: 50px;
+    margin-top:30px;
+}
+
+.lista{
+    display: flex;
+}
